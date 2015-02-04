@@ -39,9 +39,9 @@ function execute() {
     //选择一个默认二级菜单
     var currentFlag = $(parent.frames["frame_menu"].document).find(' .menu_2_current');
     if (currentFlag.length > 0) {
-        $(currentFlag[0]).trigger('click');
+        $(currentFlag[0]).parent().trigger('click');
     } else {
         //第一个二级菜单默认选择
-        $(menu_2_a[0]).trigger('click');
+        $(menu_2_a[0]).parent().trigger('click');
     }
 };
