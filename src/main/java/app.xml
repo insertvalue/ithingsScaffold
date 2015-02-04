@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app>
+    <modual name="基本信息" shortname="basicInfo">
+        <menu name="水库基本信息" shortname="rsvrBasicInfo"></menu>
+        <menu name="水利工程信息" shortname="waterProjectInfo"></menu>
+    </modual>
+    <modual name="预警发布" shortname="warnIssue">
+        <menu name="发布管理" shortname="issueMng"></menu>
+    </modual>
+</app>
